@@ -1,0 +1,46 @@
+import fs from 'fs';
+import type { NetlifyAPI } from '@netlify/api';
+import type { StatusCallback } from './status-cb.js';
+export type UploadApi = Pick<NetlifyAPI, 'uploadDeployFile' | 'uploadDeployFunction' | 'uploadDeployEdgeFunction' | 'uploadDeployServer'>;
+interface UploadFileBase {
+    filepath: string;
+    normalizedPath: string;
+    body?: fs.ReadStream;
+}
+export interface StaticUploadFile extends UploadFileBase {
+    assetType: 'file';
+}
+export interface FunctionUploadFile extends UploadFileBase {
+    assetType: 'function';
+    runtime?: string;
+    invocationMode?: string;
+    timeout?: number;
+}
+export interface EdgeFunctionUploadFile extends UploadFileBase {
+    assetType: 'edge-function';
+    hash: string;
+}
+export interface ServerUploadFile extends UploadFileBase {
+    assetType: 'server';
+    hash: string;
+}
+export type UploadFile = StaticUploadFile | FunctionUploadFile | EdgeFunctionUploadFile | ServerUploadFile;
+interface UploadFilesOptions {
+    concurrentUpload: number;
+    maxRetry: number;
+    statusCb: StatusCallback;
+}
+declare const uploadFiles: (api: UploadApi, deployId: string, uploadList: UploadFile[], { concurrentUpload, maxRetry, statusCb }: UploadFilesOptions) => Promise<({
+    id?: string;
+    path?: string;
+    sha?: string;
+    mime_type?: string;
+    size?: number;
+} | {
+    id?: string;
+    name?: string;
+    sha?: string;
+    region?: string;
+})[]>;
+export default uploadFiles;
+//# sourceMappingURL=upload-files.d.ts.map
