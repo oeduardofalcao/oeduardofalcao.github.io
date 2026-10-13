@@ -65,7 +65,7 @@ const PROJETOS = [
       "processo-08"
     ],
     resumo:
-      "Este projeto editorial é um livro coletivo do Programa de Pós-Graduação em Comunicação da PUCRS, concebido para reunir reflexões críticas de pesquisadores sobre as intersecções entre Indústria Criativa e Comunicação. A obra busca estimular a produção de conhecimento a partir do olhar acadêmico, trazendo discussões que vão além da teoria e dialogam diretamente com a prática contemporânea do setor.",
+      "Projeto gráfico do livro coletivo do Programa de Pós-Graduação em Comunicação da PUCRS, que reúne reflexões sobre as intersecções entre Indústria Criativa e Comunicação, com foco nos elementos visuais da obra: capa, contracapa, lombada e marca-páginas.",
     papel: "Design dos elementos visuais do livro",
     papelTexto:
       "Com capítulos que exploram desde jogos digitais e políticas públicas até diferentes epistemologias, o volume pedia um sistema visual capaz de dar unidade a autores e temas tão diversos. Fui responsável, em conjunto com os designers Sofia Schein e Guilherme Stahl, pela criação e execução dos elementos visuais da obra: capa, contracapa (e seus respectivos versos), lombada e linguetas/marca-páginas.",
@@ -159,34 +159,31 @@ const PROJETOS = [
     tags: ["marca pessoal", "autoral"],
     capa: "assets/projetos/identidade-visual/capa.jpg",
     destaque: true,
+    figuras: [
+      "pagina-01",
+      "pagina-02",
+      "pagina-03",
+      "pagina-04",
+      "pagina-05",
+      "pagina-06",
+      "pagina-07",
+      "pagina-08",
+      "pagina-09",
+      "pagina-10"
+    ],
     resumo:
-      "Projeto de identidade visual pessoal: marca, sistema tipográfico e aplicações para presença profissional.",
+      "Projeto de marca pessoal para apresentar meu trabalho em Design de Comunicação. O ponto de partida foi a combinação entre a formação em TI e o design, que une método e sensibilidade. O desafio era traduzir essa dupla bagagem em uma identidade sóbria, clara e com presença humana.",
     papel: "Projeto autoral, do conceito à aplicação.",
-    periodo: "2025",
+    papelTexto:
+      "Desenvolvi o projeto sozinho, da definição do conceito à construção do sistema visual e das peças de aplicação.",
+    periodo: "Fev 2025 - Mai 2025",
     equipe: "Autoral",
-    processo: "TODO: conceito e razões das escolhas.",
-    entregas: "TODO: aplicações feitas",
-    resultado: "TODO: onde a marca está em uso"
-  },
-  {
-    slug: "campanha-eleitoral",
-    titulo: "Campanhas",
-    cliente: "Studio Prohub",
-    ano: "2026",
-    categoria: "Campanha",
-    tags: ["campanha", "redes sociais", "impresso"],
-    capa: "assets/projetos/campanha-eleitoral/capa.jpg",
-    destaque: true,
-    oculto: false,
-    resumo:
-      "Duas campanhas eleitorais conduzidas em paralelo. Criação de peças digitais para redes sociais, convites e materiais de evento, além de peças gráficas de impressão como banners, adesivos e roupas estampadas.",
-    papel: "Designer na agência, em duas campanhas simultâneas de candidatos diferentes.",
-    periodo: "Jun 2026 – set 2026",
-    equipe: "Studio Prohub",
     processo:
-      "Atuação em duas campanhas em paralelo. TODO: escrever o processo com mais detalhe e revisar a questão de divulgação de material eleitoral ativo com a agência antes de publicar.",
-    entregas: "TODO: peça por peça",
-    resultado: "TODO: volume entregue, alcance, retorno do cliente"
+      "A identidade parte de três ideias que resumem a minha forma de trabalhar: pessoas, métodos e resultados. O monograma \"FE\" nasceu dessa base, combinando linhas retas, que representam metodologia e profissionalismo, com curvas suaves, que remetem ao trabalho humano. A paleta é enxuta, com um preto profundo (#161616) como cor principal e um branco levemente quente como contraponto, o que dá destaque ao símbolo e à tipografia. Para o texto, uni a Ibarra Real Nova, serifada e com caráter editorial, à Fustat, uma sem serifa limpa e de leitura confortável. A assinatura manuscrita fecha o sistema e traz um toque pessoal.",
+    entregas:
+      "- Monograma\n- Paleta de cores com referências em HEX e CMYK\n- Sistema tipográfico\n- Assinatura manuscrita\n- Texto de apresentação\n- Cartão de visita",
+    resultado:
+      "Uma identidade coesa e reconhecível, que equilibra rigor e proximidade e se aplica com consistência do digital ao impresso. A marca comunica organização, diálogo e cuidado com o processo criativo, e reúne em um único sistema o que defendo como profissional."
   }
 ];
 
@@ -212,7 +209,7 @@ const ESTUDOS = [
       "processo-12",
       "processo-13"
     ],
-    resumo: "Estudo tipográfico. Projeto coletivo.",
+    resumo: "Estudo tipográfico coletivo, com Sofia Schein, inspirado nos azulejos brasileiros e no chão caquinho: cada letra nasce de gestos fragmentados e artesanais.",
     sobre:
       "Este projeto de tipografia foi realizado em conjunto com Sofia Schein. Ele nasce da história dos azulejos brasileiros, em especial do chão caquinho, técnica popular feita com fragmentos de cerâmica reaproveitados. Assim como esses mosaicos urbanos juntam peças diferentes para formar novas narrativas visuais, a fonte parte dessa lógica de composição: cada letra é construída por gestos fragmentados, orgânicos e imperfeitos, inspirados no aspecto artesanal dos cacos.\n\nO uso do carimbo com digitais reforça o caráter manual e acessível do trabalho, que dialoga com as ODS 19 e 4 ao aproximar cultura, coletividade e educação visual. O resultado é uma tipografia que celebra a pluralidade, a memória e a identidade brasileira, levando nossas raízes para formas que unem o humano e o prático."
   },
@@ -232,7 +229,7 @@ const ESTUDOS = [
     ano: "2023",
     capa: "assets/estudos/letter-gothic/capa.jpg",
     figuras: ["capa", "processo"],
-    resumo: "Estudo de face tipográfica: construção de glifos e hierarquia.",
+    resumo: "Estudo tipográfico sobre a Letter Gothic: origem, história e peculiaridades da família.",
     sobre:
       "Pesquisa sobre a tipografia Letter Gothic apresentando sua história e peculiaridades da família."
   },
@@ -252,7 +249,7 @@ const ESTUDOS = [
     ano: "2023",
     capa: "assets/estudos/whisper-capa/capa.jpg",
     figuras: ["capa", "processo"],
-    resumo: "Capa conceitual para a revista Whisper.",
+    resumo: "Capa conceitual para a revista Whisper, criada a partir da releitura do Retrato de Massimiliano Stampa, de Sofonisba Anguissola, em uma linguagem visual silenciada.",
     sobre:
       "Capa desenvolvida para a revista Whisper, uma publicação conceitual sobre identidade, silêncio e estética contemporânea. A composição visual foi criada a partir da obra Retrato de Massimiliano Stampa (Sofonisba Anguissola, 1532–1625), reinterpretada em uma linguagem visual silenciada, que dialoga com os temas abordados na edição: anonimato, medo e expressão mínima."
   }
@@ -340,4 +337,4 @@ const PERFIL = {
   ]
 };
 
-const CATEGORIAS = ["Todos", "Identidade", "Institucional", "Editorial", "Informação", "Campanha"];
+const CATEGORIAS = ["Todos", "Identidade", "Institucional", "Editorial", "Informação"];

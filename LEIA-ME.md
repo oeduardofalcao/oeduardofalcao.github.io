@@ -110,8 +110,6 @@ Pages > Custom domain**.
 
 - [ ] Substituir todas as capas `.svg` por imagens reais
 - [ ] Preencher todos os textos marcados como `TODO` no `js/dados.js`
-- [ ] Conferir a página `campanha-eleitoral` e decidir a questão de divulgação de material
-      eleitoral ativo com a Studio Prohub
 - [ ] Passar o leitor de tela no celular
 - [ ] Testar em Firefox e Safari, não só no Chrome
 

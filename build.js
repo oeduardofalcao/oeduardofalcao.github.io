@@ -295,7 +295,7 @@ escrever(
   layout({
     titulo: "Projetos — Eduardo Falcão",
     descricao:
-      "Todos os projetos de design de comunicação de Eduardo Falcão: identidade, institucional, editorial, informação e campanha.",
+      "Todos os projetos de design de comunicação de Eduardo Falcão: identidade, institucional, editorial e informação.",
     slugAtivo: "projetos.html",
     base: "",
     corpo: `  <section class="section">
