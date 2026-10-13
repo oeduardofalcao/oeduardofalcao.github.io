@@ -218,6 +218,7 @@ ul {
   display: flex;
   align-items: center;
   gap: clamp(0.9rem, 2.2vw, 2rem);
+  margin-left: auto;
   font-size: var(--fs-small);
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -1006,8 +1007,29 @@ html.lb-open {
 }
 
 @media (max-width: 46rem) {
-  .nav-links a[data-optional] {
-    display: none;
+  .nav {
+    flex-wrap: wrap;
+    height: auto;
+    padding-block: 0.6rem;
+    row-gap: 0.55rem;
+  }
+
+  .brand {
+    order: 1;
+  }
+
+  .theme-btn {
+    order: 2;
+    margin-left: auto;
+  }
+
+  .nav-links {
+    order: 3;
+    width: 100%;
+    margin-left: 0;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: clamp(0.9rem, 4vw, 1.5rem);
   }
 }
 
