@@ -87,17 +87,33 @@ const PROJETOS = [
     tags: ["wayfinding", "sistema", "informação"],
     capa: "assets/projetos/garibaldi-rotas/destaque.jpg",
     destaque: true,
+    figuras: [
+      "pagina-01",
+      "pagina-02",
+      "pagina-03",
+      "pagina-04",
+      "pagina-05",
+      "pagina-06",
+      "pagina-07",
+      "pagina-08",
+      "pagina-09",
+      "pagina-10",
+      "pagina-11",
+      "pagina-12",
+      "pagina-13",
+      "pagina-14"
+    ],
     resumo:
       "Sistema de identificação e sinalização para rotas do município de Garibaldi, com estudo de fluxo de pedestres e hierarquia de informação em sinalização urbana.",
     papel: "Pesquisa, projeto gráfico e arte final do sistema de sinalização",
-    periodo: "2024",
-    equipe: "Projeto em parceria com a Prefeitura de Garibaldi",
+    periodo: "Ago 2024 - Nov 2024",
+    equipe: "Projeto coletivo",
     processo:
-      "O ponto de partida foi o levantamento das rotas e dos fluxos de pedestres no município: quais caminhos as pessoas realmente usam, onde a informação se perde e em que pontos a sinalização precisava entrar. A partir daí, o sistema foi organizado por hierarquia — orientação principal, direção secundária e referências de apoio — para que a leitura funcionasse tanto em deslocamento quanto na parada.\n\nAs peças foram desenhadas para o contexto urbano de Garibaldi, com tipografia de alta legibilidade, contraste e formatos definidos pela distância de leitura. Tudo em módulos replicáveis, para que novos pontos pudessem ser sinalizados sem redesenhar o sistema.",
+      "O ponto de partida foi o levantamento das rotas e dos fluxos de pedestres no município: quais caminhos as pessoas realmente usam, onde a informação se perde e em que pontos a sinalização precisava entrar. A partir daí, o sistema foi organizado por hierarquia, com orientação principal, direção secundária e referências de apoio, para que a leitura funcionasse tanto em deslocamento quanto na parada.\n\nAs peças foram desenhadas para o contexto urbano de Garibaldi, com tipografia de alta legibilidade, contraste e formatos definidos pela distância de leitura. Tudo foi pensado em módulos replicáveis, para que novos pontos pudessem ser sinalizados sem redesenhar o sistema. Projeto desenvolvido em conjunto com os designers Arthur Cabeda, Guilherme Stahl e Otávio Bürke.",
     entregas:
-      "Sistema de sinalização com placas e painéis para os pontos de maior fluxo, em diferentes formatos conforme a distância de leitura, mais o repertório gráfico que orienta a aplicação das peças no espaço público.",
+      "Projeto de sistema de sinalização com placas e painéis para os pontos de maior fluxo, em diferentes formatos conforme a distância de leitura, mais o repertório gráfico que orienta a aplicação das peças no espaço público.",
     resultado:
-      "Sistema aprovado e aplicado nos pontos definidos com a Prefeitura, servindo como base para a sinalização das rotas do município."
+      "Um sistema de sinalização completo e replicável, projetado para orientar o deslocamento de pedestres pelas rotas de Garibaldi e pronto para servir de base a uma futura implantação."
   },
   {
     slug: "casafono",
