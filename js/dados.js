@@ -163,12 +163,12 @@ const PROJETOS = [
     destaque: true,
     oculto: false,
     resumo:
-      "Duas campanhas eleitoras conduzidas em paralelo. Criação de peças digitais para redes sociais, convites e materiais de evento, além de peças gráficas de impressão como banners, adesivos e roupas estampadas.",
+      "Duas campanhas eleitorais conduzidas em paralelo. Criação de peças digitais para redes sociais, convites e materiais de evento, além de peças gráficas de impressão como banners, adesivos e roupas estampadas.",
     papel: "Designer na agência, em duas campanhas simultâneas de candidatos diferentes.",
     periodo: "Jun 2026 – set 2026",
     equipe: "Studio Prohub",
     processo:
-      "Atuação em duas campanhas topo. TODO: escrever o processo com mais detalhe e revisar a questão deRightsdivulgação de material eleitoral ativo com a agência antes de publicar.",
+      "Atuação em duas campanhas em paralelo. TODO: escrever o processo com mais detalhe e revisar a questão de divulgação de material eleitoral ativo com a agência antes de publicar.",
     entregas: "TODO: peça por peça",
     resultado: "TODO: volume entregue, alcance, retorno do cliente"
   }
@@ -283,7 +283,7 @@ const PERFIL = {
       quando: "Jun 2026 – set 2026",
       cargo: "Designer",
       org: "Studio Prohub",
-      nota: "Duas campanhas eleitoras em paralelo. Peças digitais, convites, materiais de evento e impressão."
+      nota: "Duas campanhas eleitorais em paralelo. Peças digitais, convites, materiais de evento e impressão."
     },
     {
       quando: "Set 2025 – atual",

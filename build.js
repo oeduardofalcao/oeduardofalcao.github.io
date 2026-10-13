@@ -456,7 +456,7 @@ ordem.forEach((item) => {
   const dirLista = baseDir + (eEstud ? "estudos/" : "projetos/");
   const rel = (eEstud ? "estudos/" : "projetos/") + item.slug + ".html";
   const capaAbs = baseDir + item.capaFinal;
-  const capaLeg = capaAbs.endsWith("capa.svg") ? "Capa do projeto &mdash; substituir pelo arquivo real." : "";
+  const capaLeg = capaAbs.endsWith("capa.svg") ? "Capa do projeto — substituir pelo arquivo real." : "";
 
   const fatos = (
     eEstud
