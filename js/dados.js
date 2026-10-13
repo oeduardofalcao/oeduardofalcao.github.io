@@ -179,7 +179,7 @@ const PROJETOS = [
     periodo: "Fev 2025 - Mai 2025",
     equipe: "Autoral",
     processo:
-      "A identidade parte de três ideias que resumem a minha forma de trabalhar: pessoas, métodos e resultados. O monograma \"FE\" nasceu dessa base, combinando linhas retas, que representam metodologia e profissionalismo, com curvas suaves, que remetem ao trabalho humano. A paleta é enxuta, com um preto profundo (#161616) como cor principal e um branco levemente quente como contraponto, o que dá destaque ao símbolo e à tipografia. Para o texto, uni a Ibarra Real Nova, serifada e com caráter editorial, à Fustat, uma sem serifa limpa e de leitura confortável. A assinatura manuscrita fecha o sistema e traz um toque pessoal.",
+      "A identidade parte de três ideias que resumem a minha forma de trabalhar: pessoas, métodos e resultados. O monograma \"EFT\", formado pelas iniciais de Eduardo Falcão Teixeira, nasceu dessa base, combinando linhas retas, que representam metodologia e profissionalismo, com curvas suaves, que remetem ao trabalho humano. A paleta é enxuta, com um preto profundo (#161616) como cor principal e um branco levemente quente como contraponto, o que dá destaque ao símbolo e à tipografia. Para o texto, uni a Ibarra Real Nova, serifada e com caráter editorial, à Fustat, uma sem serifa limpa e de leitura confortável. A assinatura manuscrita fecha o sistema e traz um toque pessoal.",
     entregas:
       "- Monograma\n- Paleta de cores com referências em HEX e CMYK\n- Sistema tipográfico\n- Assinatura manuscrita\n- Texto de apresentação\n- Cartão de visita",
     resultado:
