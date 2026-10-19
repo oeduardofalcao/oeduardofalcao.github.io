@@ -12,7 +12,7 @@ const PROJETOS = [
     resumo:
       "Calendário institucional de mesa do Tribunal Regional do Trabalho da 4ª Região, criado para divulgar os direitos eleitorais em 2026. Desenvolvido em estilo de fotografia híbrida, teve mais de 4.000 exemplares distribuídos por todo o Rio Grande do Sul.",
     papel: "Design gráfico e diagramação",
-    periodo: "Nov 2025 – Jan 2026",
+    periodo: "Nov 2025 - Jan 2026",
     equipe: "Secretaria de Comunicação Social (SECOM) — TRT-4",
     processo:
       "O calendário nasceu para informar servidores, magistrados e demais profissionais da Justiça do Trabalho sobre os direitos eleitorais em ano de eleições. A equipe optou por ilustrações em estilo de fotografia híbrida, uma tendência em crescimento que tem como referência o logotipo da Copa do Mundo FIFA 2026, que combina elementos fotográficos e ilustrativos. As cores vibrantes foram escolhidas para chamar a atenção para o tema.\n\nO projeto foi liderado por Camila Dotto e desenvolvido por Carlos Eduardo Rodrigues, Bruno Contreras e Eduardo Falcão. Com o conceito definido, fiquei responsável pela diagramação das 12 páginas do calendário, ajustando composição e legibilidade para garantir clareza na leitura das informações eleitorais.",
@@ -42,6 +42,40 @@ const PROJETOS = [
       "Cartão impresso em formato de carteira, com frente e verso: campos de preenchimento para o número do processo e a unidade judiciária, mais o QR Code de acesso à Consulta Cidadão. Distribuição gratuita nas unidades judiciárias e administrativas de atendimento ao público.",
     resultado:
       "Após o período de testes, de 6 de abril a 5 de junho de 2026 em sete unidades de Porto Alegre, Lajeado, Santiago e Viamão, o cartão passou a ser disponibilizado em todas as unidades judiciárias e administrativas de atendimento ao público do TRT-RS a partir de 1º de setembro de 2026, conforme notícia publicada pelo tribunal ([https://www.trt4.jus.br/portais/vox/modulos/noticias/51037881](https://www.trt4.jus.br/portais/vox/modulos/noticias/51037881)). Servidores relataram mais agilidade no atendimento, e o cartão também ajuda a proteger o cidadão de golpes que simulam cobranças por mensagem."
+  },
+  {
+    slug: "trt4-portas-abertas",
+    titulo: "TRT4 Portas Abertas",
+    cliente: "Tribunal Regional do Trabalho da 4ª Região",
+    ano: "2026",
+    categoria: "Institucional",
+    tags: ["institucional", "campanha", "evento", "impresso"],
+    capa: "assets/projetos/trt4-portas-abertas/mockup-marca-pagina-verso.jpg",
+    destaque: true,
+    figuras: [
+      "destaque",
+      "processo-01",
+      "processo-02",
+      "entrega-01",
+      "entrega-02",
+      "entrega-03",
+      "entrega-04",
+      "mockup-cartaz",
+      "mockup-livro",
+      "mockup-marca-pagina-verso",
+      "mockup-cracha"
+    ],
+    resumo:
+      "O Portas Abertas é o evento anual em que o Tribunal Regional do Trabalho da 4ª Região recebe o público em suas instalações. Para a edição de 2026, o projeto envolveu o aprimoramento da marca do evento e o desenvolvimento de todas as peças visuais da comunicação: cartaz, convite, capa de livro, marca-página, crachá e cards digitais.",
+    papel: "Responsável pelo aprimoramento da marca e pelo design gráfico de todas as peças",
+    periodo: "Ago 2026 - Out 2026",
+    equipe: "Secretaria de Comunicação Social (SECOM) — TRT-4",
+    processo:
+      "Comecei pela revisão da identidade já existente do evento. O objetivo foi ajustar seus elementos para que a marca funcionasse bem em formatos muito diferentes, do cartaz impresso ao card digital.\n\nCom a marca ajustada, desenvolvi as peças da edição a partir de um único sistema visual. A mesma linguagem e os mesmos elementos de identidade foram aplicados tanto aos materiais impressos quanto aos de tela, o que garantiu unidade entre eles.",
+    entregas:
+      "- Cartaz A3, em versão impressa e digital\n- Convite com a data do evento\n- Capa de livro A3\n- Marca-página, frente e verso\n- Crachá de visitante\n- Card digital e destaque para telas\n\nArquivos finais em PDF para impressão e em JPG e PNG para os canais digitais.",
+    resultado:
+      "As peças sustentaram a comunicação oficial do evento em 2026. Um único sistema cobriu do convite ao material distribuído no local e manteve a marca do Portas Abertas consistente em todos os pontos de contato."
   },
   {
     slug: "coletanea-industria-criativa",
@@ -260,7 +294,7 @@ const PERFIL = {
   cargo: "Designer de Comunicação",
   cidade: "Porto Alegre, RS",
   email: "eduardofalcao.teixeira@gmail.com",
-  whatsapp: "5511997247520",
+  whatsapp: "5551997247520",
   linkedin: "https://www.linkedin.com/in/oeduardofalcao",
     behance: "https://www.behance.net/oeduardofalcao",
   bio: "Designer de comunicação, cursando bacharelado na PUCRS e com formação técnica em informática. Já trabalhei em agência e em órgão público criando peças digitais, campanhas e materiais impressos, e dei aula sobre mídias sociais. Gosto de acompanhar o processo do início ao fim, da ideia à arte final.",

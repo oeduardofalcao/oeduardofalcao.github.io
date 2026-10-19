@@ -60,11 +60,11 @@ const layout = ({ titulo, descricao, slugAtivo, corpo, base }) => {
     <a class="brand" href="${base}index.html">${esc(PERFIL.nome)}</a>
     <div class="nav-links">
           ${nav}
+    </div>
       <button class="theme-btn" type="button" aria-label="Alternar tema claro e escuro" data-theme-toggle>
         <svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 12.8A9 9 0 1111.2 3a7 7 0 009.8 9.8z"/></svg>
         <svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4"/></svg>
       </button>
-    </div>
   </nav>
 </header>
 
@@ -242,7 +242,7 @@ const hero = `
 escrever(
   "index.html",
   layout({
-    titulo: "Eduardo Falcão — Designer de Comunicação em Porto Alegre",
+    titulo: "Eduardo Falcão - Designer de Comunicação",
     descricao:
       "Portfólio de Eduardo Falcão, designer de comunicação em Porto Alegre: identidades visuais, peças impressas, design editorial e campanhas.",
     slugAtivo: "index.html",
