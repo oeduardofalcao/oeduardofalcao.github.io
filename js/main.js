@@ -96,7 +96,7 @@
   var contato = document.querySelectorAll("[data-contact]");
   var PERFIL_CONTATO = {
     email: "eduardofalcao.teixeira@gmail.com",
-    whatsapp: "5511997247520",
+    whatsapp: "5551997247520",
     linkedin: "https://www.linkedin.com/in/oeduardofalcao",
     behance: "https://www.behance.net/oeduardofalcao"
   };
